@@ -1,4 +1,4 @@
-import '../css/style.css';
+import './Home.css';
 
 function Home(){
     let url = "https://discord.com/api/oauth2/authorize?client_id=1010476447967748116&permissions=8&scope=bot";

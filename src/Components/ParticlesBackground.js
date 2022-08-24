@@ -10,8 +10,7 @@ function ParticlesBackground(){
 
     return (
         <div className="ParticlesBackground">
-            <Particles options={particlesOptions} init={particlesInit}/>
-            <div className="test"></div>
+            <Particles className='wrapper' options={particlesOptions} init={particlesInit}/>
         </div>
     )
 }
