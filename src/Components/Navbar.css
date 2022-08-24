@@ -126,7 +126,7 @@ span:nth-child(3){
         right: -15%;
     }
     .navbar li {
-        padding-top: 150px;
+        padding-top: 100px;
         z-index: -1;
     }
 }
@@ -273,7 +273,21 @@ span:nth-child(3){
         width: 80%;
     }
 }
-@media (min-width: 400px) and (max-width: 421px) {
+@media (min-width: 411px) and (max-width: 421px){
+    .burger-menu {
+        right: -3rem;
+    }
+    nav ul.slide {
+        right: -115%;
+    }
+    nav ul {
+        width: 145vh;
+    }
+    .home-content {
+        width: 80%;
+    }
+}
+@media (min-width: 400px) and (max-width: 411px) {
     .burger-menu {
         right: -3rem;
     }
@@ -301,8 +315,21 @@ span:nth-child(3){
         width: 80%;
     }
 }
-
-@media (min-width: 348px) and (max-width: 380px) {
+@media (min-width: 359px) and (max-width: 380px) {
+    .burger-menu {
+        right: -3rem;
+    }
+    nav ul.slide {
+        right: -140%;
+    }
+    nav ul {
+        width: 145vh;
+    }
+    .home-content {
+        width: 80%;
+    }
+}
+@media (min-width: 348px) and (max-width: 359px) {
     .burger-menu {
         right: -1rem;
     }
