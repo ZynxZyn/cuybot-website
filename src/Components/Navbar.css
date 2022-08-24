@@ -252,3 +252,33 @@ span:nth-child(3){
         width: 80%;
     }
 }
+
+@media (min-width: 348px) and (max-width: 380px) {
+    .burger-menu {
+        right: -1rem;
+    }
+    nav ul.slide {
+        right: -160%;
+    }
+    nav ul {
+        width: 145vh;
+    }
+    .home-content {
+        width: 80%;
+    }
+}
+
+@media (min-width: 310px) and (max-width: 348px) {
+    .burger-menu {
+        right: -1rem;
+    }
+    nav ul.slide {
+        right: -180%;
+    }
+    nav ul {
+        width: 145vh;
+    }
+    .home-content {
+        width: 80%;
+    }
+}
