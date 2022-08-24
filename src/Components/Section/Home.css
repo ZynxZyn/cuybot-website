@@ -65,7 +65,7 @@
     }
 }
 
-@media (min-width: 380px) and (max-width: 576px) {
+@media (max-width: 600px) {
     .home-content h1 {
         font-size: 70px;
     }
