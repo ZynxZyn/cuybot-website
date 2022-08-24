@@ -117,13 +117,13 @@ span:nth-child(3){
         text-align: center;
         background-color: rgba(var(--rgb-secondary), 0.5);
         box-shadow: 0 0 15px var(--secondary-color);
-        right: 0;
+        right: -100%;
         transition: all 1s;
         opacity: 0;
     }
     nav ul.slide {
         opacity: 1;
-        right: 0;
+        right: -20%;
     }
     .navbar li {
         padding-top: 150px;
@@ -134,9 +134,5 @@ span:nth-child(3){
 @media (max-width: 576px) {
     .burger-menu {
         right: -4rem;
-    }
-
-    nav ul {
-        right: 0;
     }
 }
