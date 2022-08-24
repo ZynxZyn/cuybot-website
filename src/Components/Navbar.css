@@ -163,7 +163,7 @@ span:nth-child(3){
         right: -6rem;
     }
     nav ul.slide {
-        right: -95%;
+        right: -80%;
     }
     nav ul {
         width: 145vh;
@@ -177,7 +177,7 @@ span:nth-child(3){
         right: -4rem;
     }
     nav ul.slide {
-        right: -95%;
+        right: -90%;
     }
     nav ul {
         width: 145vh;
@@ -186,12 +186,23 @@ span:nth-child(3){
         width: 95%;
     }
 }
-@media (min-width: 530px) and (max-width: 550px) {
+@media (min-width: 542px) and (max-width: 550px) {
     .burger-menu {
         right: -4rem;
     }
     nav ul.slide {
-        right: -105%;
+        right: -85%;
+    }
+    nav ul {
+        width: 145vh;
+    }
+}
+@media (min-width: 530px) and (max-width: 542px) {
+    .burger-menu {
+        right: -4rem;
+    }
+    nav ul.slide {
+        right: -90%;
     }
     nav ul {
         width: 145vh;
@@ -202,7 +213,7 @@ span:nth-child(3){
         right: -4rem;
     }
     nav ul.slide {
-        right: -115%;
+        right: -100%;
     }
     nav ul {
         width: 145vh;
