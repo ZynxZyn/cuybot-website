@@ -35,7 +35,7 @@ function Navbar() {
                 <span><i className="fa-solid fa-xmark"></i></span>
             </div>
             <nav>
-                <ul className={"navbar"} ref={ulRef}>
+                <ul className={"navbar "} ref={ulRef}>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#">Features</a></li>
                     <li><a href="#">Commands</a></li>
