@@ -1,6 +1,15 @@
 import './css/style.css';
 
 function Navbar() {
+    const navbar = document.getElementById("header");
+
+    window.addEventListener("scroll", function(){
+      if(window.scrollY > 20) {
+        navbar.classList.add("sticky");
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    })
     return (
         <div className="Navbar">
             <header id="header">
