@@ -117,7 +117,7 @@ span:nth-child(3){
         text-align: center;
         background-color: rgba(var(--rgb-secondary), 0.5);
         box-shadow: 0 0 15px var(--secondary-color);
-        right: -100%;
+        right: -70%;
         transition: all 1s;
         opacity: 0;
     }
@@ -134,5 +134,9 @@ span:nth-child(3){
 @media (max-width: 576px) {
     .burger-menu {
         right: -4rem;
+    }
+
+    nav ul {
+        right: -40%;
     }
 }
