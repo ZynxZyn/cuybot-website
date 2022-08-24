@@ -1,21 +1,31 @@
+import React, { useState, useRef, useEffect } from 'react';
 import './css/style.css';
 
 function Navbar() {
-    const navbar = document.getElementById("header");
+    const navRef = useRef();
 
-    window.addEventListener("scroll", function(){
-      if(window.scrollY > 20) {
-        navbar.classList.add("sticky");
-      } else {
-        navbar.classList.remove("sticky");
-      }
-    })
+    useEffect(() => {
+        const handleScroll = () => {
+            if(window.scrollY > 20) {
+                navRef.current.classList.add("sticky");
+            } else {
+                navRef.current.classList.remove("sticky");
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+            window.addEventListener('scroll', handleScroll);
+        };
+    }, []);
+
     return (
         <div className="Navbar">
-            <header id="header">
-            <h1 class="logo">CuyBot</h1>
+            <header id="header" ref={navRef}>
+            <h1 className="logo">CuyBot</h1>
             <nav>
-                <ul class="navbar">
+                <ul className="navbar">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#">Features</a></li>
                     <li><a href="#">Commands</a></li>

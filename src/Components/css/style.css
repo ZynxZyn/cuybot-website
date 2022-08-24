@@ -22,7 +22,7 @@
   }
   
   .logo:hover {
-    color: #DC143C;
+    color: #FBDF07;
   }
   
   li, a, button {
@@ -104,7 +104,7 @@
   .home-content .p2 {
     font-size: 30px;
     font-weight: bold;
-    color: #DC143C;
+    color: #FBDF07;
   }
   
   .home-content a {
