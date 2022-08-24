@@ -59,8 +59,24 @@
     letter-spacing: .20em;
 }
 
-@media screen and (max-width: 1300px) {
+@media  (max-width: 1300px) {
     .home {
         margin-left: 3rem;
+    }
+}
+
+@media (min-width: 380px) and (max-width: 576px) {
+    .home-content h1 {
+        font-size: 70px;
+    }
+    .home-content .p1 {
+        font-size: 20px;
+    }
+    .home-content .p2 {
+        font-size: 25px;
+    }
+    .home-content button {
+        width: 70%;
+        padding: 15px;
     }
 }
