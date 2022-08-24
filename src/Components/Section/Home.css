@@ -1,0 +1,66 @@
+.home {
+    display: flex;
+    align-items: center;
+    background: #121212 no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    min-height: 100vh;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 10rem;
+}
+  
+.home-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+  
+.home-content h1 {
+    font-size: 80px;
+}
+  
+.home-content .p1 {
+    font-size: 26px;
+}
+  
+.home-content .p2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #FBDF07;
+}
+  
+.home-content a {
+    z-index: 1;
+}
+
+.home-content button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 20px;
+    width: 30%;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    border-color: var(--secondary-color);
+    box-shadow: 0 0 15px var(--secondary-color);
+    cursor: pointer;
+    z-index: 1;
+    transition: .5s;
+}
+  
+.home-content button:hover {
+    position: relative;
+    padding: 23px;
+    width: 32%;
+    left: -1px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    letter-spacing: .20em;
+}
+
+@media screen and (max-width: 1300px) {
+    .home {
+        margin-left: 5rem;
+    }
+}

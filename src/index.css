@@ -11,7 +11,7 @@
 }
 ::-webkit-scrollbar-thumb {
   border-radius: 20px;
-  background: white;
+  background: #FBDF07;
   box-shadow: inset 2px 2px 2px rgba(255, 255, 255, 0.25), inset -2px -2px -2px rgba(0,0,0,0.25);
 }
 
