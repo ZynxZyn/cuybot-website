@@ -74,7 +74,7 @@
         display: inline-block;
         position: absolute;
         right: 10px;
-        top: 13px;
+        top: 14px;
         transition: all .3s ease;
       }
     .nav.sticky > .nav-btn {
