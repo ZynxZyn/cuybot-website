@@ -346,7 +346,7 @@ span:nth-child(3){
 }
 @media (min-width: 359px) and (max-width: 380px) {
     .burger-menu {
-        right: -3rem;
+        right: -2rem;
     }
     nav ul.slide {
         right: -145%;
