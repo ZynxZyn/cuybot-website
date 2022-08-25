@@ -37,9 +37,9 @@ function Navbar() {
             <nav>
                 <ul className={"navbar"} ref={ulRef}>
                     <li><a href="#home">Home</a></li>
-                    <li><a href="#">Features</a></li>
-                    <li><a href="#">Commands</a></li>
-                    <li><a href="#">Developers</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#commands">Commands</a></li>
+                    <li><a href="#developers">Developers</a></li>
                 </ul>
             </nav>
             </header>

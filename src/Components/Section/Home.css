@@ -45,22 +45,37 @@
     border-color: var(--secondary-color);
     box-shadow: 0 0 15px var(--secondary-color);
     cursor: pointer;
-    z-index: 1;
+    z-index: 2;
     transition: .5s;
 }
   
 .home-content button:hover {
     position: relative;
-    padding: 23px;
-    width: 32%;
-    left: -1px;
+    padding: 21px;
     background-color: var(--primary-color);
     color: var(--secondary-color);
     letter-spacing: .20em;
 }
 
-@media screen and (max-width: 1300px) {
+@media  (max-width: 1300px) {
     .home {
-        margin-left: 5rem;
+        margin-left: 3rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .home-content h1 {
+        font-size: 70px;
+    }
+    .home-content .p1 {
+        font-size: 20px;
+    }
+    .home-content .p2 {
+        font-size: 25px;
+    }
+    .home-content button {
+        width: 70%;
+        padding: 15px;
+        position: relative;
     }
 }
