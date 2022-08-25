@@ -73,14 +73,14 @@
     .nav > .nav-btn {
         display: inline-block;
         position: absolute;
-        right: 0px;
-        top: 10px;
+        right: 10px;
+        top: 13px;
         transition: all .3s ease;
       }
     .nav.sticky > .nav-btn {
       display: inline-block;
       position: absolute;
-      right: 0px;
+      right: 10px;
       top: 3px;
     }
     .nav > .nav-btn > label {
