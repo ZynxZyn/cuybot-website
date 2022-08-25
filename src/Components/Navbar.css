@@ -61,6 +61,7 @@ header.sticky {
   
 .navbar li a:hover {
     text-shadow: 0 0 5px var(--primary-color);;
+    color: #FBDF07;
 }
 
 .bar {
@@ -128,6 +129,20 @@ span:nth-child(3){
     .navbar li {
         padding-top: 100px;
         z-index: -1;
+    }
+}
+@media (min-width: 800px) and (max-width: 900px) {
+    .burger-menu {
+        right: -6rem;
+    }
+    nav ul.slide {
+        right: -55%;
+    }
+    nav ul {
+        width: 145vh;
+    }
+    .home-content {
+        width: 100%;
     }
 }
 @media (min-width: 650px) and (max-width: 800px) {
@@ -278,7 +293,7 @@ span:nth-child(3){
         right: -3rem;
     }
     nav ul.slide {
-        right: -115%;
+        right: -123%;
     }
     nav ul {
         width: 145vh;
@@ -301,7 +316,7 @@ span:nth-child(3){
         width: 80%;
     }
 }
-@media (min-width: 380px) and (max-width: 400px) {
+@media (min-width: 390px) and (max-width: 400px) {
     .burger-menu {
         right: -3rem;
     }
@@ -315,12 +330,26 @@ span:nth-child(3){
         width: 80%;
     }
 }
+@media (min-width: 370px) and (max-width: 390px) {
+    .burger-menu {
+        right: -3rem;
+    }
+    nav ul.slide {
+        right: -115%;
+    }
+    nav ul {
+        width: 145vh;
+    }
+    .home-content {
+        width: 80%;
+    }
+}
 @media (min-width: 359px) and (max-width: 380px) {
     .burger-menu {
         right: -3rem;
     }
     nav ul.slide {
-        right: -140%;
+        right: -145%;
     }
     nav ul {
         width: 145vh;

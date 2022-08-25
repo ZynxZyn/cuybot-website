@@ -10,7 +10,7 @@ function App() {
             <ParticlesBackground/>
             <Navbar />
             <Home />
-            <div className="test"></div>
+            <Features />
         </div>
 
     );

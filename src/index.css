@@ -3,6 +3,8 @@
   --rgb-primary: 255,255,255;
   --rgb-secondary: 0,0,0;
   --secondary-color: #212121;
+  --surface-color: #fff;
+  --curve: 40;
 }
 
 ::-webkit-scrollbar {
@@ -28,6 +30,7 @@ html {
 body {
   background: #121212 no-repeat center;
   background-size: cover;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 canvas{
