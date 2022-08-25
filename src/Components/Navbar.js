@@ -35,10 +35,10 @@ function Navbar() {
                 </div>
                 
                 <div class="nav-links">
-                    <a href="#home" target="_blank">Home</a>
-                    <a href="#features" target="_blank">Features</a>
-                    <a href="#" target="_blank">Commands</a>
-                    <a href="#" target="_blank">Developers</a>
+                    <a href="#home">Home</a>
+                    <a href="#features">Features</a>
+                    <a href="#">Commands</a>
+                    <a href="#">Developers</a>
                 </div>
             </div>
         </div>
