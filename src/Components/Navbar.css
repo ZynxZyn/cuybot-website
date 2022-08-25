@@ -62,6 +62,7 @@
   .nav > .nav-links > a:hover {
     background-color: rgba(0, 0, 0, 0.3);
     text-shadow: 0 0 15px;
+    color: #FBDF07;
   }
   
   .nav > #nav-check {
@@ -70,19 +71,23 @@
   
   @media (max-width:1100px) {
     .nav > .nav-btn {
+        display: inline-block;
+        position: absolute;
+        right: 0px;
+        top: 10px;
+        transition: all .3s ease;
+      }
+    .nav.sticky > .nav-btn {
       display: inline-block;
       position: absolute;
       right: 0px;
-      top: 0px;
+      top: 3px;
     }
     .nav > .nav-btn > label {
       display: inline-block;
       width: 50px;
       height: 50px;
       padding: 13px;
-    }
-    .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
-      background-color: rgba(0, 0, 0, 0.3);
     }
     .nav > .nav-btn > label > span {
       display: block;
@@ -95,7 +100,7 @@
       text-align: center;
       display: block;
       width: 100%;
-      background-color: var(--secondary-color);
+      background-color: rgba(0, 0, 0, 0.5);
       height: 0px;
       transition: all 0.3s ease-in;
       overflow-y: hidden;
