@@ -3,8 +3,6 @@ import './Navbar.css';
 
 function Navbar() {
     const navRef = useRef();
-    const barRef = useRef();
-    const ulRef = useRef();
 
     useEffect(() => {
         const handleScroll = () => {
@@ -16,10 +14,6 @@ function Navbar() {
         };  
         window.addEventListener('scroll', handleScroll);
 
-        barRef.current.addEventListener('click',function(){
-            ulRef.current.classList.toggle("slide")
-        })
-
         return () => {
             window.addEventListener('scroll', handleScroll);
         };
@@ -27,22 +21,26 @@ function Navbar() {
 
     return (
         <div className="Navbar">
-            <header id="header" ref={navRef}>
-            <h1 className="logo">CuyBot</h1>
-            <div className="burger-menu">
-                <input type="checkbox" className="bar" ref={barRef} ></input>
-                <span><i className="fa-solid fa-bars"></i></span>
-                <span><i className="fa-solid fa-xmark"></i></span>
+            <div class="nav"ref={navRef}>
+                <input type="checkbox" id="nav-check"></input>
+                <div class="nav-header">
+                    <h1 className='nav-title'>CUYBOT</h1>
+                </div>
+                <div class="nav-btn">
+                    <label for="nav-check">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    </label>
+                </div>
+                
+                <div class="nav-links">
+                    <a href="#home" target="_blank">Home</a>
+                    <a href="#features" target="_blank">Features</a>
+                    <a href="#" target="_blank">Commands</a>
+                    <a href="#" target="_blank">Developers</a>
+                </div>
             </div>
-            <nav>
-                <ul className={"navbar"} ref={ulRef}>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#features">Features</a></li>
-                    <li><a href="#commands">Commands</a></li>
-                    <li><a href="#developers">Developers</a></li>
-                </ul>
-            </nav>
-            </header>
         </div>
     )
 }

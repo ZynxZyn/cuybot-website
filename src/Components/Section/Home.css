@@ -36,6 +36,8 @@
 }
 
 .home-content button {
+    text-transform: uppercase;
+    color: white;
     display: inline-block;
     margin-top: 30px;
     padding: 20px;
@@ -47,6 +49,8 @@
     cursor: pointer;
     z-index: 2;
     transition: .5s;
+    letter-spacing: .15em;
+    font-weight: 3rem;
 }
   
 .home-content button:hover {

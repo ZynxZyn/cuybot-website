@@ -118,15 +118,17 @@ img {
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
     overflow: hidden;
+    text-transform: uppercase;
 }    
 
 @media (max-width: 900px) {
     .cards {
-        margin-left: 4em;
-        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+        margin-left: 1em;
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
         gap: 2rem;
     }
     .features-title {
         font-size: 3rem;
+        margin-left: .5em;
     }
 }
