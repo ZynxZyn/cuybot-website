@@ -1,22 +1,13 @@
-import './App.css'
-import Navbar from './Components/Navbar';
-import Home from './Components/Section/Home';
-import ParticlesBackground from './Components/ParticlesBackground';
-import Features from './Components/Section/Features';
-import Footer from './Components/Footer';
+import "./App.css";
+import { LandingPage, DashboardPage } from "./Components/pages";
+import { Switch, Route } from "react-router-dom";
 
-function App() {
+const App = () => {
     return (
-        <div className="App">
-            <ParticlesBackground/>
-            <Navbar />
-            <Home />
-            <Features />
-            <div className="test"></div>
-            <Footer />
-        </div>
-
+        <Switch>
+            <Route path="/" exact component={LandingPage}></Route>
+        </Switch>
     );
-}
+};
 
 export default App;
